@@ -1,0 +1,51 @@
+.container {
+    display: grid;
+    height: 20in;
+    grid-template-columns: 40px 50px auto 50px 40px;
+    grid-template-rows: 25% 100px auto;
+    border: 1px;
+}
+
+.remote_container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 3;
+    border: 1px;
+    background: coral;
+}
+
+input {
+    height: 90%;
+    width: 90%;
+    margin: 10px;
+    justify-self: center;
+}
+
+.remote_item11 {
+    grid-column: 1;
+    grid-row: 1;
+}
+.remote_item12 {
+    grid-column: 1;
+    grid-row: 2;
+}
+.remote_item13 {
+    grid-column: 1;
+    grid-row: 3;
+}
+.remote_item14 {
+    grid-column: 1;
+    grid-row: 4;
+}
+.remote_item21 {
+    grid-column: 2;
+    grid-row: 1;
+}
+.remote_item22 {
+    grid-column: 2;
+    grid-row: 2;
+}
