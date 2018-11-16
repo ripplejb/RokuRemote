@@ -1,4 +1,4 @@
-const rokuUri = "http://192.168.1.94:8060/keypress/";
+const rokuUri = "http://<RokiIP>:8060/keypress/";
 
 function SendCommand(command) {
     var xmlHttp = new XMLHttpRequest();
